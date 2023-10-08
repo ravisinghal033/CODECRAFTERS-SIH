@@ -1,0 +1,115 @@
+body{
+    padding: 10%;
+    background: linear-gradient(#80FFDB, #64DFDF, #48BFE3, #5390D9, #5E60CE);
+}
+.bhasha{
+    margin-top:0;
+    font-size: 60px;
+    margin-left: 30%;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    left:50px;
+}
+
+.bhasha:hover{
+    font-size: 70px;
+    padding: 0;
+    transition: 0.2s;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    left:50px;
+}
+
+    
+
+
+.nav .navsearch{
+    flex: 1;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+}
+.nav .navsearch input{
+   
+    flex: 1;
+    height: 30px;
+    border-right: 0;
+    border: 1px solid white;
+    margin-top: 5rem;
+
+}
+.Lang{
+    margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Lang{
+    font-size:20px ;
+}
+.Lang input{
+    height: 30px;
+    border-right: 0;
+    border: 1px solid white;
+    margin-top: 5rem;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 5%;
+    
+
+}
+
+
+.nav .navsearch button{
+    height: 35px;
+    border-right: 0;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-top:5rem;
+}
+.nav .navsearch button:hover{
+    width: 80px;
+    transition: 0.2s;
+}
+.goog-te-gadget img {
+    height: 0px;
+}
+.VIpgJd-ZVi9od-l4eHX-hSRGPd, .VIpgJd-ZVi9od-l4eHX-hSRGPd:link, .VIpgJd-ZVi9od-l4eHX-hSRGPd:visited, .VIpgJd-ZVi9od-l4eHX-hSRGPd:hover, .VIpgJd-ZVi9od-l4eHX-hSRGPd:active {
+    font-size: 0 !important;
+}
+.goog-te-gadget .goog-te-combo {
+    margin: 4px 0;
+    height: 40px;
+    left: 25rem;
+    position: relative;
+    border-radius: 20px;
+    align-items: center;
+    font-family: ui-rounded;
+}
+.goog-te-gadget {
+    font-family: arial;
+    font-size: 0 !important;
+    color: #666;
+    white-space: nowrap;
+}
+.contain {
+    background-color: white;
+    height: 122px;
+    width: 314px;
+    position: relative;
+    align-self: center;
+    display: flex;
+    left: 300px;
+    top: 21px;
+    border-radius: 10px;
+    overflow: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    word-break: break-all;
+    padding: 5px;
+}
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+    visibility: hidden !important;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>CodeCrafters</title>
+</head>
+
+<body>
+
+    <nav class="nav">
+        <a class="bhasha" href="index.html">BhashaSwap</a>
+        <div class="navsearch">
+            <input id="txt" oninput="getvalue()" type="text" placeholder=" Type in the data ">
+            <button>Convert</button>
+        </div>
+        <div class="Lang">
+            <label style="    position: relative;
+            top: 35px;
+        ">Choose Language to convert into: </label>
+
+        </div>
+        <div id="google_element"></div>
+        <div class="contain">
+            <span style="color: black; font-size: 20px;" id="result"></span>
+        </div>
+        
+        <script src="https://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+        <script>
+            function loadGoogleTranslate() {
+                new google.translate.TranslateElement("google_element");
+            }
+        </script>
+        <script>
+            function getvalue(){
+                let txt = document.getElementById("txt");
+                let txtvalue = txt.value;
+                let result = document.getElementById("result");
+                result.innerText=txtvalue;
+            }
+
+        </script>
+    </nav>
+</body>
+
+</html>
